@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/todo_db
+    username: root
+    password: Nicaea10
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
